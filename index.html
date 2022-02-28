@@ -11,7 +11,7 @@
 <body>
     <div class="container m-auto w-100">
         <div class="row m-auto w-100">
-            <div class="col-md-6 m-auto text-center">
+            <div class="col-md-6 text-center">
                 <h1>Left side</h1>
                 <div class="input-group mb-3">
                     <input id="search-box" type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -19,9 +19,18 @@
                         <span onclick="allPlayers()" class="input-group-text" id="search-btn">Search</span>
                     </div>
                 </div>
+                <div>
+                    <img id="spinner" src="spinner/spinner.gif" alt="">
+                </div>
+                <div id="player-container" class="container">
+
+                </div>
             </div>
-            <div class="col-md-6 m-auto text-center">
+            <div class="col-md-6 text-center">
                 <h1>right side</h1>
+                <div id="details-container">
+
+                </div>
             </div>
         </div>
     </div>
